@@ -43,3 +43,14 @@ body {
 #login-form input:focus {
     border-color: var(--yellow);
 }
+#login-form input[type="submit"] {
+    background-color: var(--yellow);
+    cursor: pointer;
+}
+
+#login-form a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+}
